@@ -32,7 +32,7 @@
   </parent>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <svn.url>https://schemaspy.svn.sourceforge.net/svnroot/schemaspy</svn.url>
+    <git.url>https://github.com/gnuhub/SchemaSpy-ng</git.url>
   </properties>
   <licenses>
     <license>
@@ -43,8 +43,8 @@
   </licenses>
   <scm>
     <url>http://schemaspy.svn.sourceforge.net/viewvc/schemaspy/</url>
-    <connection>scm:svn:${svn.url}</connection>
-    <developerConnection>scm:svn:${svn.url}</developerConnection>
+    <connection>scm:git:${git.url}</connection>
+    <developerConnection>scm:git:${git.url}</developerConnection>
   </scm>
   <developers>
     <developer>
@@ -91,7 +91,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>buildnumber-maven-plugin</artifactId>
-        <version>1.0-beta-3</version>
+        <version>1.3</version>
         <executions>
           <execution>
             <phase>validate</phase>
